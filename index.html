@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Experience</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Interactive Web Experience</h1>
+    <p>Dynamic CSS animations & JavaScript interactions combined</p>
+  </header>
+
+  <main>
+    <!-- Buttons Section -->
+    <section class="section">
+      <h2>Interactive Buttons</h2>
+      <button id="hoverButton" class="animated-button">Hover Me!</button>
+    </section>
+
+    <!-- Box Animation Section -->
+    <section class="section">
+      <h2>Animated Box</h2>
+      <div class="box-container">
+        <div id="animatedBox" class="box"></div>
+      </div>
+      <button id="animateBtn" class="primary-btn">Animate Box</button>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="section">
+      <h2>Rectangle Area Calculator</h2>
+      <div class="calculator">
+        <input type="number" id="width" placeholder="Width">
+        <input type="number" id="height" placeholder="Height">
+        <button id="calcBtn" class="primary-btn">Calculate</button>
+        <p id="result"></p>
+      </div>
+    </section>
+
+    <!-- Modal Section -->
+    <section class="section">
+      <h2>Modal Popup</h2>
+      <button id="openModalBtn" class="primary-btn">Open Modal</button>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span id="closeModalBtn" class="close">&times;</span>
+          <h3>🎉 Welcome!</h3>
+          <p>This modal uses smooth fade-in/out animations triggered by JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card Flip Section -->
+    <section class="section">
+      <h2>Card Flip</h2>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-front">
+            <h3>Front</h3>
+            <p>Click to flip!</p>
+          </div>
+          <div class="card-back">
+            <h3>Back</h3>
+            <p>This is the back of the card.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Interactive Web Experience | Built with CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
